@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "brødtekst";
+    src: url(../../assets/onest-static/Onest-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "logo-modak";
+    src: url(../../assets/Modak-Regular.ttf);
+}
+
+.logo{
+    font-family: "logo-modak";
+}
+
+h2, h3, p{
+    font-family: "brødtekst";
+}
