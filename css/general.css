@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: "brødtekst";
     src: url(../../assets/onest-static/Onest-SemiBold.ttf);
@@ -6,6 +7,11 @@
 @font-face {
     font-family: "tekst";
     src: url(../../assets/onest-static/Onest-Medium.ttf);
+}
+
+@font-face {
+    font-family: "billedetext";
+    src: url(../../assets/onest-static/Onest-Regular.ttf);
 }
 
 @font-face {
@@ -22,13 +28,16 @@
     font-family: "logo-modak";
 }
 
-h1{
+h1, h2{
     font-family: "overskrift";
 }
 
-h2{
+.h1-stor{
     font-family: "overskrift";
+    font-size: 40px;
+    text-align: right;
 }
+
 
 h3, p{
     font-family: "brødtekst";
@@ -38,7 +47,7 @@ img{
     width: 100%;
     height: auto;
     border-radius: 1rem; 
-    padding: 0;
+    padding: 5px;
     
 }
 
@@ -81,3 +90,37 @@ img{
 .text1{
     text-align: center;
 }
+
+.indeibillede{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+img, h1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+img{
+    max-width: 100%;
+    place-self: stretch;
+    object-fit: cover;
+}
+
+h1{
+    place-self: center;
+    font-size: 5vw;
+}
+
+.img-text{
+    position: absolute;
+    color: white;
+    font-family: "billedetext";
+    text-shadow: 1px 1px 0px rgb(167, 162, 162);
+       
+}
+
+
+
+/* husk at lave media quiry
