@@ -28,3 +28,9 @@ h2{
 h3, p{
     font-family: "brødtekst";
 }
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
