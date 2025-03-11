@@ -37,22 +37,32 @@ h3, p{
 img{
     width: 100%;
     height: auto;
-    border-radius: 1rem;
+    border-radius: 1rem; 
+    padding: 0;
+    
 }
 
 .knap1{
-    text-align: right;
+    display: flex;
+    justify-content: right;
 }
+
 
 .btn2{
     display: inline-block;
     background-color: black;
     color: white;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 5rem;
     text-decoration: none;
     border-radius: 1rem;
     box-shadow: 5px 5px 5px gray;
     
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
 }
 
 .kontakt_knap{
@@ -68,8 +78,6 @@ img{
 
 }
 
-.contact{
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
+.text1{
+    text-align: center;
 }
