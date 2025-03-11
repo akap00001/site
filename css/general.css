@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: "tekst";
+    src: url(../../assets/onest-static/Onest-Medium.ttf);
+}
+
+@font-face {
     font-family: "logo-modak";
     src: url(../../assets/Modak-Regular.ttf);
 }
@@ -35,6 +40,10 @@ img{
     border-radius: 1rem;
 }
 
+.knap1{
+    text-align: right;
+}
+
 .btn2{
     display: inline-block;
     background-color: black;
@@ -47,5 +56,20 @@ img{
 }
 
 .kontakt_knap{
+    font-family: "tekst";
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+    padding: 0.3rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px gray;
 
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
 }
