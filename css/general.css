@@ -8,10 +8,23 @@
     src: url(../../assets/Modak-Regular.ttf);
 }
 
+@font-face {
+    font-family: "overskrift";
+    src: url(../../assets/onest-static/Onest-ExtraBold.ttf);
+}
+
 .logo{
     font-family: "logo-modak";
 }
 
-h2, h3, p{
+h1{
+    font-family: "overskrift";
+}
+
+h2{
+    font-family: "overskrift";
+}
+
+h3, p{
     font-family: "brødtekst";
 }
