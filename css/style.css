@@ -24,12 +24,18 @@
     src: url(../../assets/onest-static/Onest-ExtraBold.ttf);
 }
 
-.logo{
+.logoh, .logof{
     font-family: "logo-modak";
 }
 
-h1, h2{
+h1{
     font-family: "overskrift";
+    font-size: 40px;
+}
+
+h2{
+    font-family: "overskrift";
+    font-size: 20px;
 }
 
 .h1-stor{
@@ -39,7 +45,13 @@ h1, h2{
 }
 
 
-h3, p{
+h3{
+    font-family: "billedetekst";
+    font-size: medium;
+    text-align: center;
+}
+
+p{
     font-family: "brødtekst";
 }
 
@@ -108,17 +120,46 @@ img{
     object-fit: cover;
 }
 
-h1{
-    place-self: center;
-    font-size: 5vw;
-}
-
 .img-text{
     position: absolute;
     color: white;
     font-family: "billedetext";
     text-shadow: 1px 1px 0px rgb(167, 162, 162);
        
+}
+
+footer{
+    border-top: 1px solid black;
+    
+    .logof{
+     display: flex;
+    justify-content: right;
+    }
+
+    .footlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+    .foottext{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: right;
+    padding: 1rem;
+}
+    
+
+
+}
+
+
+
+
+
+header{
+    border-bottom: 1px solid black;
 }
 
 
