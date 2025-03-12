@@ -1,17 +1,11 @@
-@media(width >=600px) {
-    max-width: 700px;
-    
-
-
-
 
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;}
 
-.logo {
-    grid-column: 1/3;
+.logof {
+    grid-column: 1/4;
     grid-row: 1/2;
 }
 
@@ -21,22 +15,34 @@ footer {
 }
 
 .foottext {
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 2/3;
 }
 
 .cc {
     grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logoh {
+    grid-column: 1/2;
+}
+
+.slogan {
     grid-column: 2/3;
 }
 
-
+.ham-menu, .sort-cirkel {
+    grid-column: 3/4;
 }
 
 
-
-
-@media(width =<600px) {
+@media(width >=1000px) {
 
 
 }
