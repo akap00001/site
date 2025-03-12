@@ -69,6 +69,15 @@ li {
     font-family: "tekst";
 }
 
+.cogp {
+    font-family: "brødtekst";
+    font-size: larger;
+    text-decoration: underline;
+    display: flex;
+    justify-content: left;
+    padding-top: 10px;
+}
+
 img {
     width: 100%;
     height: auto;
