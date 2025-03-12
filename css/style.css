@@ -92,7 +92,7 @@ img {
 }
 
 
-.btn2{
+.btn2 {
     display: inline-block;
     background-color: black;
     color: white;
@@ -101,6 +101,22 @@ img {
     border-radius: 1rem;
     box-shadow: 5px 5px 5px gray;
     
+}
+
+.tilbage-knap {
+    display: flex;
+    justify-content: left;
+}
+
+.btn1 {
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    margin: 1rem;
+
 }
 
 .contact{
