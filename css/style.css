@@ -121,6 +121,26 @@ li {
 
 }
 
+.videre-knap {
+    display: flex;
+    justify-content: right;
+    padding-bottom: 10px;
+}
+
+.læs_mere {
+    font-size: small;
+}
+
+.btn3 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px 5px 15px;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
 .contact {
     display: flex;
     justify-content: center;
@@ -159,6 +179,7 @@ img {
     max-width: 100%;
     place-self: stretch;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .img-text{
@@ -167,6 +188,10 @@ img {
     font-family: "billedetext";
     text-shadow: 1px 1px 0px rgb(167, 162, 162);
        
+}
+
+.star-pics {
+    padding: 1em;
 }
 
 footer{
@@ -234,6 +259,7 @@ header {
     width: 80px;
     height: 80px;
 }
+
 
 nav {
     display: flex;
@@ -336,7 +362,25 @@ nav {
     }
 }
 
-.purr, 
+.period {
+        padding: 50px;
+    }
+
+ .filter {
+        padding-left: 90px;
+    } 
+
+.scroll {
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+
+
+
+
+
 
 /*
 .ham-menu {
