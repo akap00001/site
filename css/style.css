@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: "skrå";
-    src: url(../../assets/onest-static/Onest-Medium.ttf);
+    src: url(../../assets/onest-static/Onest-Thin.ttf);
 }
 
 @font-face {
@@ -25,7 +25,7 @@
 }
 
 .menu a {
-    font-family: "skrå";
+    font-family: "tekst";
     font-size: xx-large;
     font-style: italic;
 }
@@ -185,14 +185,22 @@ img {
 .img-text{
     position: absolute;
     color: white;
-    font-family: "billedetext";
+    font-family: "skrå";
     text-shadow: 1px 1px 0px rgb(167, 162, 162);
        
 }
 
 .star-pics {
-    padding: 1em;
+    padding-bottom: 1em;
 }
+
+.star {
+    width: 40px;
+    height: 40px;
+    border-radius: 0%;
+
+}
+
 
 footer{
     border-top: 2px solid black;
@@ -248,7 +256,7 @@ header {
     position: sticky;
     top: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 0px;
     background-color: #ffffff;
