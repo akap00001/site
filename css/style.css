@@ -24,6 +24,7 @@
     src: url(../../assets/onest-static/Onest-ExtraBold.ttf);
 }
 
+
 .menu a {
     font-family: "tekst";
     font-size: xx-large;
@@ -382,7 +383,9 @@ nav {
 } 
 
 
+@media (width >=400px) {
 
+}
 
 
 
