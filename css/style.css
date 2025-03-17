@@ -386,8 +386,19 @@ nav {
 }
 
 
-@media (width >=400px) {
+@media (width >=600px) {
+    .logof img {
+        display: flex;
+        justify-content: right;
+        margin: 0%;
+        padding: 3px;
+        padding-right: 5px;
+    }
 
+    .footlinks {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
 
