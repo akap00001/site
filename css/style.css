@@ -1,3 +1,23 @@
+@media (width <=600px) {
+    .logof img {
+        display: flex;
+        justify-content: right;
+        margin: 0%;
+        padding: 3px;
+        padding-right: 5px;
+    }
+
+    .footlinks {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .star {
+        width: 20px;
+        height: 10px;
+    }
+
+}
 
 @font-face {
     font-family: "brødtekst";
@@ -24,9 +44,8 @@
     src: url(../../assets/onest-static/Onest-ExtraBold.ttf);
 }
 
-@media (width 300px<){
-    
-}
+
+
 
 .menu a {
     font-family: "tekst";
@@ -207,13 +226,13 @@ img {
 
 
 footer{
-    border-top: 2px solid black;
+    border-top: 2px solid black;}
 
     .logof {
      display: flex;
     justify-content: right;
     margin: 0%;
-    padding: 3px;
+    padding-bottom: -5px;
     padding-right: 5px;
  }
 
@@ -222,6 +241,7 @@ footer{
     flex-direction: column;
     justify-content: left;
     padding-left: 5px; 
+    padding-bottom: -5px;
 }
 
     .foottext {
@@ -230,6 +250,7 @@ footer{
     text-align: right;
     justify-content: right;
     padding-right: 10px;
+    padding-bottom: -5px;
     
 }    
 
@@ -243,7 +264,6 @@ footer{
     padding: 3px;
 }
 
-}
 
 
 .slogan {
@@ -339,6 +359,18 @@ nav {
     padding-bottom: 10px;
 }
 
+.star1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.ful2, .ful3 {
+    display: none;
+}
+
+
+
 @media screen and (max-width: 8000px) {
     .menu {
         display: none;
@@ -386,20 +418,6 @@ nav {
 }
 
 
-@media (width >=600px) {
-    .logof img {
-        display: flex;
-        justify-content: right;
-        margin: 0%;
-        padding: 3px;
-        padding-right: 5px;
-    }
-
-    .footlinks {
-        display: flex;
-        justify-content: space-evenly;
-    }
-}
 
 
 
