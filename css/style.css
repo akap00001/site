@@ -226,7 +226,7 @@ footer{
      display: flex;
     justify-content: right;
     margin-left: 30px;
-    padding-bottom: -5px;
+    padding-bottom: 5px;
     padding-left: 0px;
  }
 
@@ -235,7 +235,7 @@ footer{
     flex-direction: column;
     justify-content: left;
     padding-left: 5px; 
-    padding-bottom: -5px;
+    padding-bottom: 5px;
 }
 
     .foottext {
@@ -244,7 +244,8 @@ footer{
     text-align: right;
     justify-content: right;
     padding-right: 10px;
-    padding-bottom: -5px;
+    padding-bottom: 5px;
+    padding-top: 10px;
     
 }    
 

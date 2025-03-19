@@ -2,7 +2,7 @@
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;}
+    }
 
 .logof {
     grid-column: 4/5;
@@ -26,8 +26,8 @@ footer {
 
 .look_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-row: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row: 1/5;
 }
 
 .star1 {
@@ -45,7 +45,7 @@ footer {
 
     main {
         max-width: 1200px;
-        display: flexbox;
+        display: block;
         justify-self: center;
         border-right: 1px solid #e8e8e8ea;
         border-left: 1px solid #e8e8e8ea;
@@ -55,7 +55,6 @@ footer {
     .grid_2-1 {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
 
     }
 
@@ -91,8 +90,6 @@ footer {
     .knap1 {
         grid-column: 2/3;
         grid-row: 3/4;
-        padding-bottom: -80px;
-        height: 43%;
         margin-left: -30px;
     }
     
@@ -104,7 +101,6 @@ footer {
     .grid_1-1-1-1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-row: 1fr 1fr;
     }
 
     .indeibillede h1 {
@@ -153,6 +149,7 @@ footer {
         grid-column: span 4;
         grid-row: 2/3;
         margin-right: 30px;
+        margin-bottom: 40px;
     }
 
     .læs_mere {
@@ -172,7 +169,6 @@ footer {
     .grid_1-2-1-1 {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr 1fr;
-        grid-row: 1fr 1fr;
         gap: 1em;
     }
 
@@ -210,7 +206,6 @@ footer {
     .ny_grid_2-1 {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-row: 1fr 1fr 1fr;
         gap: 1rem;
         margin-top: 50px;
         margin-bottom: 50px;
@@ -221,6 +216,7 @@ footer {
         grid-row: 1/2;
         margin-bottom: 50px;
         margin-left: 20px;
+        max-width: 80ch;
     }
 
     .hvilke {
@@ -251,7 +247,6 @@ footer {
     .footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
         height: 100px;
         }
 
@@ -283,7 +278,6 @@ footer {
 .look_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row: 1fr 1fr 1fr;
 }
 
 .star1 {
@@ -314,6 +308,10 @@ h1, .cogp, .fulan p {
     padding-left: 30px;
 }
 
+.h11 {
+    font-size: 60px;
+}
+
 .centre, .center {
     display: flex;
     justify-content: center;
@@ -325,7 +323,7 @@ h1, .cogp, .fulan p {
 }
 
 .fulan p {
-    max-width: 65ch;
+    max-width: 58ch;
 }
 
 }
