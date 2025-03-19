@@ -1,23 +1,4 @@
-@media (width <=600px) {
-    .logof img {
-        display: flex;
-        justify-content: right;
-        margin: 0%;
-        padding: 3px;
-        padding-right: 5px;
-    }
 
-    .footlinks {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .star {
-        width: 20px;
-        height: 10px;
-    }
-
-}
 
 @font-face {
     font-family: "brødtekst";
@@ -45,8 +26,6 @@
 }
 
 
-
-
 .menu a {
     font-family: "tekst";
     font-size: xx-large;
@@ -56,18 +35,22 @@
 h1{
     font-family: "overskrift";
     font-size: 40px;
+    padding-left: 10px;
+
 
 }
 
 h2{
     font-family: "overskrift";
     font-size: 20px;
+    padding-left: 10px;
 }
 
 .h1-stor{
     font-family: "overskrift";
     font-size: 40px;
     text-align: right;
+    padding-left: 10px;
 }
 
 
@@ -75,10 +58,12 @@ h3 {
     font-family: "billedetekst";
     font-size: medium;
     text-align: center;
+    padding-left: 10px;
 }
 
 p {
     font-family: "brødtekst";
+    padding-left: 10px;
 }
 
 li {
@@ -101,19 +86,21 @@ li {
     display: flex;
     justify-content: left;
     padding-top: 10px;
+    padding-left: 10px;
 }
 
 .indeibillede img, .front-pic {
     width: 100%;
     height: auto;
-    border-radius: 1rem; 
-    padding: 5px;
+    border-radius: 50px; 
+    padding: 30px;
     
 }
 
 .knap1 {
     display: flex;
     justify-content: right;
+    padding: 20px;
 }
 
 
@@ -141,6 +128,7 @@ li {
     padding: 5px 20px 5px 20px;
     border-radius: 10px;
     margin: 1rem;
+    
 
 }
 
@@ -183,7 +171,9 @@ li {
 
 }
 
-.text1 {
+.tex {
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -226,14 +216,18 @@ img {
 
 
 footer{
-    border-top: 2px solid black;}
+    border-top: 2px solid black;
+    padding: 10px;
+    height: 220px;
+
+}
 
     .logof {
      display: flex;
     justify-content: right;
-    margin: 0%;
+    margin-left: 30px;
     padding-bottom: -5px;
-    padding-right: 5px;
+    padding-left: 0px;
  }
 
     .footlinks {
@@ -351,6 +345,7 @@ nav {
 
 .filter {
     padding-left: 90px;
+   
 }
 
 .scroll {
@@ -359,17 +354,45 @@ nav {
     padding-bottom: 10px;
 }
 
+.pic1{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
 .star1 {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.star-pics p {
+    max-width: 70ch;
+    padding-left: 30px;
 }
 
 .ful2, .ful3 {
     display: none;
 }
 
+.ful1, .produkter, .tut {
+    padding: 30px;
+}
 
+
+.hvor, .hvilke, .order p {
+    padding-left: 10px;
+}
+
+.stor-comments {
+    width: 100%;
+
+}
+
+.comments {
+    display: none;
+}
 
 @media screen and (max-width: 8000px) {
     .menu {
@@ -397,7 +420,7 @@ nav {
 
     nav.active .menu {
         display: block;
-        background-color: #d9d9d9ea;
+        background-color: #e8e8e8ea;
         position: absolute;
         top: 94px;
         left: 0;
